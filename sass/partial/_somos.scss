@@ -1,0 +1,46 @@
+.container-somos {
+  position: relative; 
+  
+}
+
+.container-somos img{
+    max-width: 100%;
+    width: 100%;
+  
+}
+
+.ico {
+  width: 14.2%;
+  position: absolute;
+  z-index: 2;
+  left: 19.3%;
+  top: 18.2%;
+}
+
+.box-somos {
+  width: 36%;
+  position: absolute;
+  z-index: 2;
+  top: 9.7%;
+  right: 10.3%;
+
+
+  h3 {
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 39px;
+  }
+  
+  p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+  }
+
+  p + p {
+    margin-bottom: 29px;
+  }
+}

@@ -1,0 +1,39 @@
+
+.logo-header {
+  float: left;
+  margin-left: 104px;
+  margin-top: 42px;
+  margin-bottom: 31px;
+  width: 7.2%;
+}
+
+.nav-header {
+  width: 40%;
+  float: right;
+  margin: 50px 0 50px 0;
+  
+}
+
+nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li + li {
+  margin-left: 3%;
+}
+
+.nav-list a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-list img {
+  margin-left: 3%;
+}
+
