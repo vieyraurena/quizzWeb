@@ -1,39 +1,56 @@
+.header{
+  width: 100%;  
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  opacity: 65%;
+
+}
+
 
 .logo-header {
+  width: 7.2%;
   float: left;
-  margin-left: 104px;
+  margin-left: 7.2%;
   margin-top: 42px;
   margin-bottom: 31px;
-  width: 7.2%;
+
+
+  img{
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .nav-header {
-  width: 40%;
+  width: 37%;
   float: right;
-  margin: 50px 0 50px 0;
+  margin: 44px 0 44px 0;
   
 }
 
-nav-list {
+.nav-list {
   list-style: none;
+  
+  li {
+    float: left;
+  }
+  
+  li + li {
+    margin-left: 3%;
+  }
+  
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 16px;
+  }
 }
 
-.nav-list li {
-  float: left;
-}
-
-.nav-list li + li {
+.fb {
   margin-left: 3%;
-}
-
-.nav-list a{
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 16px;
-}
-
-.nav-list img {
-  margin-left: 3%;
+  max-width: 100%;
 }
 
