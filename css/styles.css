@@ -1,14 +1,11 @@
 /*configuraciones*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 /*partils*/
 * {
   margin: 0;
   padding: 0; }
-
-body {
-  font-family: sans-serif; }
-
-.color-black {
-  background-color: #000000; }
 
 .clearfix::after {
   content: "";
@@ -19,107 +16,151 @@ body {
   max-width: 1440px;
   margin: 0 auto; }
 
+.header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  opacity: 65%; }
+
 .logo-header {
+  width: 7.2%;
   float: left;
-  margin-left: 104px;
+  margin-left: 7.2%;
   margin-top: 42px;
-  margin-bottom: 31px;
-  width: 7.2%; }
+  margin-bottom: 31px; }
+  .logo-header img {
+    max-width: 100%;
+    width: 100%; }
 
 .nav-header {
-  width: 40%;
+  width: 37%;
   float: right;
-  margin: 50px 0 50px 0; }
+  margin: 44px 0 44px 0; }
 
-nav-list {
+.nav-list {
   list-style: none; }
+  .nav-list li {
+    float: left; }
+  .nav-list li + li {
+    margin-left: 3%; }
+  .nav-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
+    color: #fff;
+    font-size: 16px; }
 
-.nav-list li {
-  float: left; }
-
-.nav-list li + li {
-  margin-left: 3%; }
-
-.nav-list a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 16px; }
-
-.nav-list img {
+.fb {
   margin-left: 3%; }
 
 .main-image {
-  margin-bottom: 67px; }
+  position: relative;
+  margin-bottom: 64px; }
   .main-image img {
     max-width: 100%;
     width: 100%; }
 
 .box-galery {
-  width: 88.2%;
-  margin: 0 auto;
-  margin-bottom: 47px; }
+  width: 100%;
+  margin-left: 5.6%;
+  margin-right: 6.4%;
+  margin-bottom: 101px; }
   .box-galery h2 {
-    text-align: center;
+    margin-left: 33%;
     margin-bottom: 77px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     font-size: 30px;
+    text-transform: uppercase;
     color: #271e3f; }
-  .box-galery img {
-    width: 27.6%; }
-  .box-galery img + img {
+  .box-galery .box + .box {
     margin-left: 2.6%; }
 
-.box-img {
+.galery-box-img {
   margin-bottom: 51px; }
+
+.box {
+  float: left;
+  width: 27.4%;
+  position: relative; }
+  .box img {
+    max-width: 100%;
+    width: 100%; }
+  .box span {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    padding: 12px 0 21px 0;
+    background-color: black;
+    opacity: 65%;
+    color: #fff;
+    text-align: center;
+    font-family: "Oleo Script Swash Caps", cursive;
+    font-size: 36px; }
+  .box .caribe {
+    position: absolute;
+    bottom: 50px; }
+  .box a {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 0 21px 0;
+    background-color: black;
+    opacity: 65%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px; }
 
 .container-somos {
   position: relative; }
-
-.container-somos img {
-  max-width: 100%;
-  width: 100%; }
+  .container-somos img {
+    max-width: 100%;
+    width: 100%; }
 
 .ico {
   width: 14.2%;
   position: absolute;
-  z-index: 2;
   left: 19.3%;
-  top: 18.2%; }
+  top: 265px; }
 
 .box-somos {
-  width: 36%;
+  width: 37.7%;
   position: absolute;
-  z-index: 2;
-  top: 9.7%;
+  top: 9.8%;
   right: 10.3%; }
   .box-somos h3 {
-    text-align: left;
+    font-family: "Montserrat", sans-serif;
     font-size: 40px;
+    text-align: left;
     text-transform: uppercase;
-    font-weight: bold;
     color: #fff;
     margin-bottom: 39px; }
   .box-somos p {
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #fff;
     line-height: 25px; }
   .box-somos p + p {
-    margin-bottom: 29px; }
+    margin-bottom: 26px; }
 
 .footer {
-  margin: 0;
-  padding: 0; }
+  background-color: #000000; }
 
 .nav-footer {
-  width: 40.4%;
-  margin: 0 auto;
+  margin-left: 450px;
   padding-top: 50px; }
-
-img {
-  margin-top: 20px;
-  margin: 0 auto; }
+  .nav-footer div img {
+    margin: 41px 0 41px 268px; }
 
 p {
-  float: left;
   color: #fff;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding-bottom: 41px; }
