@@ -4,7 +4,6 @@
   z-index: 1;
   background-color: #000000;
   opacity: 65%;
-
 }
 
 
@@ -43,7 +42,8 @@
   a{
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-family: $nav-font;
+    font-weight: light;
     color: #fff;
     font-size: 16px;
   }
@@ -51,6 +51,6 @@
 
 .fb {
   margin-left: 3%;
-  max-width: 100%;
+
 }
 
