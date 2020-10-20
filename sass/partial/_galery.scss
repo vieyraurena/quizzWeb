@@ -1,26 +1,71 @@
 .box-galery {
-  width: 88.2%;
-  margin: 0 auto;
-  margin-bottom: 47px;
+  width: 100%;
+  margin-left: 5.6%;
+  margin-right: 6.4%;
+  margin-bottom: 101px;
   
   h2{
-    text-align: center;
+    margin-left: 33%;
     margin-bottom: 77px;
+    font-family: $nav-font;
+    font-weight: bold;
     font-size: 30px;
+    text-transform: uppercase;
     color: #271e3f;
   }
 
-  img {
-    width: 27.6%;
-    
-  }
-
-  img + img {
+  .box + .box{
     margin-left: 2.6%;
   }
 
 }
 
-.box-img {
+.galery-box-img {
   margin-bottom: 51px;
+}
+
+
+.box {
+  float: left;
+  width: 27.4%;
+  position: relative;
+
+  img{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  span{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    padding: 12px 0 21px 0;
+    background-color: black;
+    opacity: 65%;
+    color: #fff;
+    text-align: center;
+    font-family: $galery-font;
+    font-size: 36px;
+  }
+
+  .caribe {
+    position: absolute;
+    bottom: 50px;
+  }
+
+  a{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 0 21px 0;
+    background-color: black;
+    opacity: 65%;
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 19px;
+  }
 }
