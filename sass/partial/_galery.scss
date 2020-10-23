@@ -1,11 +1,10 @@
 .box-galery {
-  width: 100%;
-  margin-left: 5.6%;
-  margin-right: 6.4%;
-  margin-bottom: 101px;
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 47px;
   
   h2{
-    margin-left: 33%;
+    text-align: center;
     margin-bottom: 77px;
     font-family: $nav-font;
     font-weight: bold;
@@ -13,27 +12,23 @@
     text-transform: uppercase;
     color: #271e3f;
   }
-
-  .box + .box{
-    margin-left: 2.6%;
-  }
-
-}
-
-.galery-box-img {
-  margin-bottom: 51px;
+  
 }
 
 
 .box {
+  width: 27%;
   float: left;
-  width: 27.4%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 51px;
   position: relative;
 
   img{
     max-width: 100%;
     width: 100%;
   }
+ 
 
   span{
     position: absolute;
@@ -68,4 +63,5 @@
     font-family: $primary-font;
     font-size: 19px;
   }
+
 }

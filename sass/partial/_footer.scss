@@ -1,21 +1,24 @@
 .footer{
+  padding: 0;
+  margin: 0;
   background-color: #000000;
 }
 
 .nav-footer{
-  margin-left: 450px;
+  width: 40.2%;
+  padding-left: 31.25%;
   padding-top: 50px;
   
   div img{
-    margin: 41px 0 41px 268px;
+    padding: 41px 0 41px 42%;
   }
-}
-
-
-p {
-  color: #fff;
-  margin-top:10px;
-  font-family: $nav-font;
-  font-size: 18px;
-  padding-bottom: 41px;
+  
+  
+  p {
+    color: #fff;
+    margin-top:10px;
+    font-family: $nav-font;
+    font-size: 18px;
+    padding-bottom: 41px;
+  }
 }

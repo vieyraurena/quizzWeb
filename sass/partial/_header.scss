@@ -1,5 +1,6 @@
 .header{
-  width: 100%;  
+  right: 0;  
+  left: 0;
   position: absolute;
   z-index: 1;
   background-color: #000000;
@@ -24,33 +25,23 @@
 .nav-header {
   width: 37%;
   float: right;
-  margin: 44px 0 44px 0;
-  
+  margin: 44px;  
 }
 
 .nav-list {
-  list-style: none;
-  
-  li {
-    float: left;
-  }
-  
-  li + li {
-    margin-left: 3%;
-  }
-  
-  a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: $nav-font;
-    font-weight: light;
-    color: #fff;
-    font-size: 16px;
-  }
+  @include nav;
 }
 
 .fb {
   margin-left: 3%;
-
 }
 
+.nav-list-link{
+  display: none;
+  color: #fff;
+  font-family: $galery-font;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 7.2%;
+}

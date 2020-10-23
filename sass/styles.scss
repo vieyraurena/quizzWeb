@@ -1,7 +1,6 @@
 /*configuraciones*/
-
+@import 'config/mixins';
 @import 'config/settings';
-
 
 /*partils*/
 @import 'partial/globals';
@@ -12,3 +11,6 @@
 @import 'partial/somos';
 @import 'partial/footer';
 
+/*breakpoints*/
+@import 'breakpoints/tablet';
+@import 'breakpoints/movil';
