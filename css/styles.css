@@ -17,7 +17,8 @@
   margin: 0 auto; }
 
 .header {
-  width: 100%;
+  right: 0;
+  left: 0;
   position: absolute;
   z-index: 1;
   background-color: #000000;
@@ -36,7 +37,7 @@
 .nav-header {
   width: 37%;
   float: right;
-  margin: 44px 0 44px 0; }
+  margin: 44px; }
 
 .nav-list {
   list-style: none; }
@@ -55,6 +56,15 @@
 .fb {
   margin-left: 3%; }
 
+.nav-list-link {
+  display: none;
+  color: #fff;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 7.2%; }
+
 .main-image {
   position: relative;
   margin-bottom: 64px; }
@@ -63,27 +73,24 @@
     width: 100%; }
 
 .box-galery {
-  width: 100%;
-  margin-left: 5.6%;
-  margin-right: 6.4%;
-  margin-bottom: 101px; }
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 47px; }
   .box-galery h2 {
-    margin-left: 33%;
+    text-align: center;
     margin-bottom: 77px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 30px;
     text-transform: uppercase;
     color: #271e3f; }
-  .box-galery .box + .box {
-    margin-left: 2.6%; }
-
-.galery-box-img {
-  margin-bottom: 51px; }
 
 .box {
+  width: 27%;
   float: left;
-  width: 27.4%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 51px;
   position: relative; }
   .box img {
     max-width: 100%;
@@ -127,7 +134,7 @@
   width: 14.2%;
   position: absolute;
   left: 19.3%;
-  top: 265px; }
+  top: 45%; }
 
 .box-somos {
   width: 37.7%;
@@ -150,17 +157,74 @@
     margin-bottom: 26px; }
 
 .footer {
+  padding: 0;
+  margin: 0;
   background-color: #000000; }
 
 .nav-footer {
-  margin-left: 450px;
+  width: 40.2%;
+  padding-left: 31.25%;
   padding-top: 50px; }
   .nav-footer div img {
-    margin: 41px 0 41px 268px; }
+    padding: 41px 0 41px 42%; }
+  .nav-footer p {
+    color: #fff;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    padding-bottom: 41px; }
 
-p {
-  color: #fff;
-  margin-top: 10px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  padding-bottom: 41px; }
+/*breakpoints*/
+@media (max-width: 1024px) {
+  /*HEADER*/
+  .nav-list {
+    display: none; }
+  .nav-list-link {
+    display: block; }
+  /*GALERY*/
+  .box-galery h2 {
+    font-size: 25px; }
+  .box {
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%; }
+  /*SOMOS*/
+  .box-somos {
+    width: 45%;
+    top: 12%; }
+    .box-somos h3 {
+      font-size: 30px;
+      margin-bottom: 19px; }
+    .box-somos p {
+      font-size: 15px;
+      line-height: 20px; }
+    .box-somos p + p {
+      margin-bottom: 12px; }
+  /*footer*/
+  .nav-footer p {
+    font-size: 15px; }
+  .nav-footer .nav-list-link {
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  /*GALERY*/
+  .box-galery {
+    margin-left: 5%; }
+  .box-galery + .box-galery {
+    float: none; }
+  .box {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+  /*SOMOS*/
+  .box-somos {
+    width: 45%; }
+    .box-somos h3 {
+      font-size: 18px;
+      margin-bottom: 12px; }
+    .box-somos p {
+      font-size: 15px;
+      line-height: 18px; }
+    .box-somos .hidden {
+      display: none; } }
