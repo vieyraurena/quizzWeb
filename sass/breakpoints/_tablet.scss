@@ -1,0 +1,56 @@
+@media (max-width: 1024px) {
+  
+  /*HEADER*/
+  .nav-list{
+    display: none;
+  }
+
+  .nav-list-link {
+    display: block;
+  }
+  /*GALERY*/
+  .box-galery {
+    
+    h2{
+      font-size: 25px;
+    }
+  }
+  
+   .box {
+     width: 46%;
+     margin-left: 2%;
+     margin-right: 2%;
+  }  
+
+  /*SOMOS*/
+  .box-somos {
+    width: 45%;
+    top: 12%;
+    h3{
+      font-size: 30px;
+      margin-bottom: 19px;
+    }
+    p{
+      font-size: 15px; 
+      line-height: 20px;
+    }
+
+    p + p {
+      margin-bottom: 12px;
+    }
+  }
+
+  /*footer*/
+
+  .nav-footer{
+
+    p {
+      font-size: 15px;
+    }
+
+    .nav-list-link {
+      text-align: center;
+    }
+  }
+}
+
