@@ -1,0 +1,20 @@
+@mixin nav {
+  list-style: none;
+  
+  li {
+    float: left;
+  }
+  
+  li + li {
+    margin-left: 3%;
+  }
+  
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $nav-font;
+    font-weight: light;
+    color: #fff;
+    font-size: 16px;
+  }
+}
